@@ -1,0 +1,30 @@
+{
+    "name": "onetoweb/helloflex",
+    "description": "HelloFlex API Client",
+    "keywords": [
+        "api",
+        "php",
+        "helloflex"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/onetoweb/helloflex",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan van 't Ende",
+            "email": "jvantende@onetoweb.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "symfony/error-handler": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onetoweb\\HelloFlex\\": "src/"
+        }
+    }
+}
