@@ -44,7 +44,7 @@ $totalCount = $client->getTotalCount();
 
 // get job
 $jobsId = 'jobs_id';
-$job = $client->get("/api/job/$jobsId");
+$job = $client->get("/api/jobs/$jobsId");
 
 // get jobs
 $publicJobs = $client->get('/api/publicjobs');
